@@ -1,0 +1,483 @@
+
+
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.wrapper{
+	width:100%;
+}	
+.header {
+    width: 100%;
+}
+.main_text {
+    width: 100%;
+    background: #2d124d;
+    overflow: hidden;
+}
+.right_text {
+    overflow: hidden;
+    margin-right: 83px;
+    margin-top: 26px;
+}
+.footer_left {
+    width: 46%;
+    margin-left: 2%;
+}	
+.footer_right {
+    width: 48%;
+    margin-right: 0px;
+    padding: 30px 0px;
+    overflow: hidden;
+}	
+.section_div {
+    width: 100%;
+    margin: 0 auto;
+}	
+.section_div img {
+    margin-left: 34%;
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	.wrapper{
+	width:100%;
+}	
+.header {
+    width: 100%;
+}	
+.logo {
+    width: 100%;
+    text-align: center;
+	background:#a1ae83;
+}
+.logo:hover{
+	background:#aedd43;
+}
+.logo h2{
+	font-size:40px;
+}	
+.nav {
+    width: 100%;
+}
+.float_right {
+    float: none;
+}	
+.nav ul li {
+    float: none;
+    width: 87%;
+    border-bottom: 1px solid #6c5f5f;
+    padding: 2% 0;
+	margin-left:6px;
+    text-align: center;
+    background: #38393d75;
+}	
+.nav ul li:hover{
+	background:blue;
+}
+.nav ul li a:hover{
+	border-bottom:none;
+}
+.main_text {
+    width: 100%;
+    background: #2d124d;
+}	
+.left_text {
+    width: 100%;
+	float:none;
+	box-sizing:border-box;
+}	
+.left_text h2 {
+    text-align: center;
+}
+#para{
+	color:#10f25e;
+	text-align:center;
+}
+
+.left_text p{
+	padding:10px;
+}
+.left_text p:hover{
+	color:#dcf2e9;
+}
+.btn button {
+    margin-left: 29%;
+	font-weight:bold;
+}
+.right_text {
+	width: 100%;
+    margin-right: 0px;
+}	
+.right_text img {
+    width: 63%;
+	margin-left: 20%;
+}	
+.section_div {
+    width: 100%;
+}	
+.section_div h2 {
+	padding:5% 0;
+    background: #00ff93;
+}
+.section_div img {
+	margin-left:0;
+	width:100%;
+}	
+.section_div p {
+    text-align: center;
+}	
+.services_part {
+    width: 100%;
+}
+.all_div_wrapper {
+    width: 100%;
+}	
+.div1 {
+    width: 91%;
+    margin-left: 19px;
+    margin-top: 10px;
+}	
+.div1 img {
+    margin-left: 40%;
+}
+.all_div_wrapper2 {
+    width: 100%;
+    margin: 10px auto;
+        margin-bottom: 10px;
+    margin-bottom: 0px;
+    
+}
+.intro p {
+    font-size: 17px;
+    line-height: 22px;
+}
+.choice_part .p {
+    padding: 20px;
+}	
+.footer_left {
+    width: 100%;
+	padding:20px;
+	margin-left:0;
+	box-sizing:border-box;
+    
+}	
+.footer_left h2{
+	text-align:center;
+	background:#f7ff068a;
+}
+.footer_left p{
+	text-align:center;
+	line-height:25px;
+}
+.footer_right {
+    width: 100%;
+    margin-right: 0px;
+    padding: 30px 0px;
+}	
+.name {
+    width: 90%;
+	margin-top:10px;
+    margin-left: 5%;
+}	
+.textarea {
+	width: 90%;
+	height: 101px;
+	margin-top: 10px;
+	margin-left: 5%;
+	font-size: 22px;
+}	
+.submit {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background: #cf3e1d;
+    color: #d5c9c9;
+    margin-left: 5%;
+}
+.fleft {
+    padding: 20px;
+        padding-top: 20px;
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+.fright {
+    width: 100%;
+    margin-left: 24%;
+}
+.fright ul li:hover{
+	border:1px solid white;
+	border-radius:20%;
+}
+.fleft p {
+    margin-right: 8%;
+}
+.btn3 button {
+    margin-left: 26%;
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.wrapper{
+	width:100%;
+}	
+.header {
+    width: 100%;
+}	
+.logo {
+    width: 100%;
+    text-align: center;
+	background:#a1ae83;
+}
+.logo:hover{
+	background:#aedd43;
+}
+.logo h2{
+	font-size:40px;
+}	
+.nav {
+    width: 100%;
+}
+.float_right {
+    float: none;
+}	
+.nav ul li {
+    float: none;
+    width: 93%;
+    border-bottom: 1px solid #6c5f5f;
+    padding: 2% 0;
+	margin-left:6px;
+    text-align: center;
+    background: #38393d75;
+}	
+.nav ul li:hover{
+	background:blue;
+}
+.nav ul li a:hover{
+	border-bottom:none;
+}
+.main_text {
+    width: 100%;
+    background: #2d124d;
+}	
+.left_text {
+    width: 100%;
+	float:none;
+	box-sizing:border-box;
+}	
+.left_text h2 {
+    text-align: center;
+}
+#para{
+	color:#10f25e;
+	text-align:center;
+}
+
+.left_text p{
+	padding:10px;
+}
+.left_text p:hover{
+	color:#dcf2e9;
+}
+.btn button {
+    margin-left: 36%;
+	font-weight:bold;
+}
+.right_text {
+	width: 100%;
+    margin-right: 0px;
+}	
+.right_text img {
+    width: 63%;
+	margin-left: 20%;
+}	
+.section_div {
+    width: 100%;
+}	
+.section_div h2 {
+	padding:5% 0;
+    background: #00ff93;
+}
+.section_div img {
+	margin-left:0;
+	width:100%;
+}	
+.section_div p {
+    text-align: center;
+}	
+.services_part {
+    width: 100%;
+}
+.all_div_wrapper {
+    width: 100%;
+}	
+.div1 {
+    width: 95%;
+    margin-left: 17px;
+    margin-top: 10px;
+}	
+.all_div_wrapper2 {
+    width: 100%;
+    margin: 10px auto;
+        margin-bottom: 10px;
+    margin-bottom: 0px;
+    
+}
+.intro p {
+    font-size: 17px;
+    line-height: 22px;
+}
+.choice_part .p {
+    padding: 20px;
+}	
+.footer_left {
+    width: 100%;
+	padding:20px;
+	margin-left:0;
+	box-sizing:border-box;
+    
+}	
+.footer_left h2{
+	text-align:center;
+	background:#f7ff068a;
+}
+.footer_left p{
+	text-align:center;
+	line-height:25px;
+}
+.footer_right {
+    width: 100%;
+    margin-right: 0px;
+    padding: 30px 0px;
+}	
+.name {
+    width: 90%;
+	margin-top:10px;
+    margin-left: 5%;
+}	
+.textarea {
+	width: 90%;
+	height: 101px;
+	margin-top: 10px;
+	margin-left: 5%;
+	font-size: 22px;
+}	
+.submit {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background: #cf3e1d;
+    color: #d5c9c9;
+    margin-left: 5%;
+}
+.fleft {
+    padding: 20px;
+        padding-top: 20px;
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+.fright {
+    width: 100%;
+    margin-left: 37%;
+}
+.fright ul li:hover{
+	border:1px solid white;
+	border-radius:20%;
+}
+.btn3 button {
+    margin-left: 34%;
+}
+
+
+
+	
+
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	
+	
+	
+	
+	
+	
+	
+}
